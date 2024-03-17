@@ -30,7 +30,7 @@ export const constantRoutes = [{
   redirect: '/login',
   children: [{
     path: '/login',
-    component: () => import('@/views/login.vue'),
+    component: () => import('@/views/Login.vue'),
     name: 'Login',
     meta: {
       title: '登陆',
